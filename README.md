@@ -1,2 +1,2 @@
-# Automated-Orange-Sorting-System
-This project features an automated sorting mechanism for grading oranges. Using SolidWorks for design and simulation, the system employs a conveyor belt, IR sensors for detection, and a pneumatic actuator for sorting. Controlled by an Arduino UNO, it provides an efficient solution for hands-free fruit sorting.
+# Smart Light Control System
+This project aims to detect human presence using a PIR sensor and measure sunlight illuminance with an LDR (Light Dependent Resistor). Based on the readings from these sensors, an LED light is controlled by an Arduino Uno, optimizing indoor lighting based on occupancy and ambient light levels.
