@@ -24,19 +24,25 @@ int buttonState = 0;
 int value=0;
 
 void setup()
+
 {
+
   pinMode(2, INPUT);
   pinMode(13, OUTPUT);  
   pinMode(A0, INPUT);
+  
 }
 
 void loop()
+
 {
+
   // read the state of the pushbutton
   value= analogRead(A0);
   buttonState = digitalRead(2);
   // check if pushbutton is pressed. if it is, the
   // button state is HIGH
+  
   if (buttonState == HIGH) {
     if(value<10)
     {
